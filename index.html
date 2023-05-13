@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NumGame</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="container">
+          <h3>I am thinking a number between 1 to 100</h3>
+          <h3>Can you guess it?</h3>
+
+          <input type="text" placeholder="Num" id="guess"><br>
+          <button onclick="play()" id="btn">GUESS</button>
+          <p id="msg1">No. of Guesses: 0</p>
+          <p id="msg2">Guessed Numbers are: None</p>
+          <p id="msg3"></p>
+          <!-- <button type="reset">RESET</button> -->
+          <!-- <input type="reset" onclick="document.location.reload()"> -->
+          <button type="reset" onclick="document.location.reload()" id="playAgain">Play Again</button>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
